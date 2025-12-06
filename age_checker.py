@@ -1,3 +1,10 @@
-age_checker.py
+age = int(input("Enter your age: "))
 
-A simple Python Program That Takes user Age And Prints Its correct Age Category using If else conditions
+if age < 13:
+    print("You are a Child")
+elif age < 20:
+    print("You are a Teenager")
+elif age < 60:
+    print("You are an Adult")
+else:
+    print("You are a Senior Citizen")
